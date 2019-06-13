@@ -1,0 +1,75 @@
+/*
+ * @freebie: three-clean-buttons
+ * @author: Francisco Neves
+ */
+
+* { outline: none !important; }
+a, a:visited, a:hover, a:active { text-decoration: none; color: inherit; }
+
+
+div.clean-button
+{
+	display: table;
+	text-align:center;
+	padding: 5px;
+	width:50%;
+	height:50%;
+	margin:200px auto;
+	border-radius: 50px 50px 50px 50px;
+	-moz-border-radius: 50px 50px 50px 50px;
+	-webkit-border-radius: 50px 50px 50px 50px;
+	background-color: #FFFFFF;
+	background: rgba(255,255,255,1);
+	background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%, rgba(255,255,255,1)));
+	background: -webkit-linear-gradient(top,rgba(255,255,255,1) 0%, rgba(255,255,255,1) 100%);
+	background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 100%);
+	background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 100%);
+	background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1f1f1', endColorstr='#cbcbcb', GradientType=0 );
+	cursor: pointer;
+}
+
+.text
+{
+	display: table;
+	padding: 13px 30px;
+	width:50%;
+	height:20%;
+	margin:0px auto;
+	background-color: #39bee1;
+	border-radius: 50px 50px 50px 50px;
+	-moz-border-radius: 50px 50px 50px 50px;
+	-webkit-border-radius: 50px 50px 50px 50px;
+	-webkit-box-shadow: inset 0px 2px 0px 0px rgba(71,233,254,0.7);
+	-moz-box-shadow: inset 0px 2px 0px 0px rgba(71,233,254,0.7);
+	box-shadow: inset 0px 2px 0px 0px rgba(71,233,254,0.7);
+	text-transform: uppercase;
+	text-align:center;
+	color: white;
+	font-size: 20px;
+	text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.2);
+	border: 1px solid #51abc5;
+}
+.text1
+{
+	display: table;
+    width:50%;
+	height:20%;
+	padding: 13px 30px;
+	margin:0px auto;
+	background-color:#E72809 ;
+	border-radius: 50px 50px 50px 50px;
+	-moz-border-radius: 50px 50px 50px 50px;
+	-webkit-border-radius: 50px 50px 50px 50px;
+	-webkit-box-shadow: inset 0px 2px 0px 0px rgba(216, 105, 89,0.7);
+	-moz-box-shadow: inset 0px 2px 0px 0px  rgba(216, 105, 89,0.7);
+	box-shadow: inset 0px 2px 0px 0px  rgba(216, 105, 89,0.7);
+	text-transform: uppercase;
+	color: white;
+	font-size: 20px;
+	text-align:center;
+	text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.2);
+	border: 1px solid #E72809;
+}
+
